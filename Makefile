@@ -39,7 +39,7 @@ docs: coverage
 
 answers:
 	cd docs && $(MAKE) html
-	xdg-open docs/build/html/index.html
+	open docs/build/html/index.html
 
 package: clean docs
 	python setup.py sdist
