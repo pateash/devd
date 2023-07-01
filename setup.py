@@ -51,11 +51,11 @@ setup(
     [console_scripts]
     devd=devd.cli:cli
     """,
-    python_requires=">=0.0.1",
+    python_requires=">=3.7",
     license='MIT',  # noqa
     author='Ashish Patel',
     author_email='ashishpatel0720@gmail.com',
-    # Use the URL to the github repo.
+    # Use the URL to the GitHub repo.
     url= 'https://github.com/pateash/devd',
     download_url=(
         f'https://github.com/pateash/'
