@@ -54,10 +54,7 @@ clean :
 	coverage erase
 
 venv :
-
 	virtualenv --python python$(PY_VERSION) venv
-
-
 
 install:
 	pip install -r requirements.txt
