@@ -1,4 +1,4 @@
-# DevD
+# DevD Cli
 
 Awesome Cli for Developers
 
